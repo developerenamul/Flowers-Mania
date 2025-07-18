@@ -150,6 +150,53 @@ button {
 .bg3 {
   background: rgba(71, 125, 17, 0.15);
 }
+/* icons container */
+.icons-container {
+  padding: 20px 0;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  text-align: center;
+  max-width: 500px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.icon p {
+  margin-top: 10px;
+}
+
+.icon img {
+  width: 45px;
+  height: 45px;
+}
+
+/* offer section */
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer-des {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn {
+  background: tomato;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+.offer-des h1 {
+  font-size: 2rem;
+}
+.offer-des p {
+  margin-bottom: 10px;
+}
 
 @media (min-width: 992px) {
   .banner {
@@ -168,5 +215,16 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+  }
+  .icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .offer {
+    flex-direction: row;
+  }
+  .offer-des {
+    text-align: left;
   }
 }
