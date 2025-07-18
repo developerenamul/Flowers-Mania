@@ -227,6 +227,23 @@ button {
 .contact-info {
   text-align: center;
 }
+footer {
+  background: var(--footer-color);
+  padding: 50px;
+}
+.footer-content {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  color: #fff;
+}
+.footer-content h1,
+p {
+  margin-bottom: 10px;
+}
+.copyright {
+  color: grey;
+}
 @media (min-width: 600px) {
   .insta-cards-container {
     display: grid;
