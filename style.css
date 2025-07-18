@@ -198,6 +198,42 @@ button {
   margin-bottom: 10px;
 }
 
+/* instagram section */
+.instagram-desc {
+  text-align: center;
+}
+.instagram-desc h1 {
+  font-size: 2rem;
+}
+.instagram-desc p {
+  margin-bottom: 10px;
+}
+.insta-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* contact section */
+.contact {
+  background: url("./Flower\ Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  padding: 100px 0px;
+}
+
+.contact-info {
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .insta-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
 @media (min-width: 992px) {
   .banner {
     display: flex;
@@ -226,5 +262,10 @@ button {
   }
   .offer-des {
     text-align: left;
+  }
+  .insta-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
 }
